@@ -1,8 +1,10 @@
 #include<stdio.h>    
 #include<stdlib.h>  
-int main(){  
+int main()
+{  
 long int n,sum=0,r;    
 system("cls");  
+clrscr();
 printf("enter the number=");    
 scanf("%ld",&n);    
 while(n>0)    
