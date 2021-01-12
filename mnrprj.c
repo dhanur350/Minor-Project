@@ -2,9 +2,7 @@
 #include<stdlib.h>  
 int main()
 {  
-long int n,sum=0,r;    
-system("cls");  
-clrscr();
+int n,sum=0,r;     
 printf("enter the number=");    
 scanf("%ld",&n);    
 while(n>0)    
@@ -50,7 +48,7 @@ case 0:
 printf("zero ");    
 break;    
 default:    
-printf("tttt");    
+printf("\n No number ");    
 break;    
 }    
 n=n/10;    

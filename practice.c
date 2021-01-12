@@ -1,46 +1,49 @@
 #include<stdio.h>
 int main()
 {
-int n,a,b,c;
+int n,a,b,c; // int d  
 printf("Enter a 4 digit no.");
 scanf("%d", &n);  
+/*if(n>=19)
+d=a+b;
+*/
 a=n%10;  // 1234 % 10 = 4
 n=n/10;  // 1234 / 10 = 123
-b=n%10;  // 123 %  10 = 3
-n=n/10;  // 123 /  10 = 12
-c=n%10;  // 12  %  10 = 2
-n=n/10;  
+b=n%10;  // 123  % 10 = 3
+n=n/10;  // 123  / 10 = 12
+c=n%10;  // 12   % 10 = 2
+n=n/10;  // 12   / 10 = 1  
 switch(n)
 {
 case 0:
 printf("zero");
 break;
 case 1:
-printf("one");
+printf("One Thousand");
 break;
 case 2:
-printf("two");
+printf("Two Thousand");
 break;
 case 3:
-printf("three");
+printf("Three Thousand");
 break;
 case 4:
-printf("four");
+printf("Four Thousand");
 break;
 case 5:
-printf("five");
+printf("Five Thousand");
 break;
 case 6:
-printf("six");
+printf("Six Thousand");
 break;
 case 7:
-printf("seven");
+printf("Seven Thousand");
 break;
 case 8:
-printf("eight");
+printf("Eight Thousand");
 break;
 case 9:
-printf("nine");
+printf("Nine Thousand");
 break;
 default:
 printf("not a no.");
@@ -49,108 +52,138 @@ printf("not a no.");
 switch(c)
 {
 case 0:
-printf("\nzero");
+printf(" zero");
 break;
 case 1:
-printf("\none");
+printf(" One hundred");
 break;
 case 2:
-printf("\ntwo");
+printf(" Two hundred");
 break;
 case 3:
-printf("\nthree");
+printf(" Three hundred");
 break;
 case 4:
-printf("\nfour");
+printf(" Four hundred");
 break;
 case 5:
-printf("\nfive");
+printf(" Five hundred");
 break;
 case 6:
-printf("\nsix");
+printf(" Six hundred");
 break;
 case 7:
-printf("\nseven");
+printf(" Seven hundred");
 break;
 case 8:
-printf("\neight");
+printf(" Eight hundred");
 break;
 case 9:
-printf("\nnine");
+printf(" Nine hundred");
 break;
 default:
 printf("not a no.");
-
 }
 switch(b)
 {
 case 0:
-printf("\nzero");
+printf(" zero");
 break;
 case 1:
-printf("\none");
+printf(" Ten");
 break;
 case 2:
-printf("\ntwo");
+printf(" Twenty");
 break;
 case 3:
-printf("\nthree");
+printf(" Thirty");
 break;
 case 4:
-printf("\nfour");
+printf(" Forty");
 break;
 case 5:
-printf("\nfive");
+printf(" Fifty");
 break;
 case 6:
-printf("\nsix");
+printf(" Sixty");
 break;
 case 7:
-printf("\nseven");
+printf(" Seventy");
 break;
 case 8:
-printf("\neight");
+printf(" Eighty");
 break;
 case 9:
-printf("\nnine");
+printf(" Ninety");
 break;
 default:
-printf("\nnot a no.");
+printf(" not a no.");
 }
-
 switch(a)
 {
 case 0:
-printf("\nzero");
+printf(" zero\n");
 break;
 case 1:
-printf("\none");
+printf(" one\n");
 break;
 case 2:
-printf("\ntwo");
+printf(" two\n");
 break;
 case 3:
-printf("\nthree");
+printf(" three\n");
 break;
 case 4:
-printf("\nfour");
+printf(" four\n");
 break;
 case 5:
-printf("\nfive");
+printf(" five\n");
 break;
 case 6:
-printf("\nsix");
+printf(" six\n");
 break;
 case 7:
-printf("\nseven");
+printf(" seven\n");
 break;
 case 8:
-printf("\neight");
+printf(" eight\n");
 break;
 case 9:
-printf("\nnine");
+printf(" nine\n");
+break;
+}
+/*
+switch (d)
+{
+case 11:
+printf(" eleven\n");
+break;
+case 12:
+printf(" twelve\n");
+break;
+case 13:
+printf(" thirteen\n");
+break;
+case 14:
+printf(" fourteen\n");
+break;
+case 15:
+printf(" fifteen\n");
+break;
+case 16:
+printf(" sixteen\n");
+break;
+case 17:
+printf(" seventeen\n");
+break;
+case 18:
+printf(" eighteen\n");
+break;
+case 19:
+printf(" nineteen\n");
 break;
 default:
-printf("\nnot a no.");
+printf(" not a no.");
 }
+*/
 }
