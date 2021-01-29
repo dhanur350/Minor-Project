@@ -52,74 +52,108 @@ printf("not a no.");
 switch(c)
 {
 case 0:
-printf(" zero");
+printf(" zero ");
 break;
 case 1:
-printf(" One hundred");
+printf(" One hundred ");
 break;
 case 2:
-printf(" Two hundred");
+printf(" Two hundred ");
 break;
 case 3:
-printf(" Three hundred");
+printf(" Three hundred ");
 break;
 case 4:
-printf(" Four hundred");
+printf(" Four hundred ");
 break;
 case 5:
-printf(" Five hundred");
+printf(" Five hundred ");
 break;
 case 6:
-printf(" Six hundred");
+printf(" Six hundred ");
 break;
 case 7:
-printf(" Seven hundred");
+printf(" Seven hundred ");
 break;
 case 8:
-printf(" Eight hundred");
+printf(" Eight hundred ");
 break;
 case 9:
-printf(" Nine hundred");
+printf(" Nine hundred ");
 break;
 default:
 printf("not a no.");
 }
+switch (b)
+    {
+        case 1:
+            // special case for numbers between 11-19
+            switch (a)
+            {
+                case 0:
+                    printf(" ten \n"); 
+                    break;
+                case 1:
+                    printf(" eleven \n"); 
+                    break;
+                case 2:
+                    printf(" twelve \n"); 
+                    break;
+                case 3:
+                    printf(" thirteen \n"); 
+                    break;
+                case 4:
+                    printf(" fourteen \n"); 
+                    break;
+                case 5:
+                    printf(" fifteen \n"); 
+                    break;
+                case 6:
+                    printf(" sixteen \n"); 
+                    break;
+                case 7:
+                    printf(" seventeen \n"); 
+                    break;
+                case 8:
+                    printf(" eigthteen \n"); 
+                    break;
+                case 9:
+                    printf(" nineteen \n"); 
+                    break;
+                default:
+                printf("not a no.");
+                break;
+            }
+        case 2:
+            printf(" twenty "); 
+            break;
+        case 3:
+            printf(" thirty "); 
+            break;
+        case 4:
+            printf(" forty "); 
+            break;
+        case 5:
+            printf(" fifty "); 
+            break;
+        case 6:
+            printf(" sixty "); 
+            break;
+        case 7:
+            printf(" seventy "); 
+            break;
+        case 8:
+            printf(" eighty "); 
+            break;
+        case 9:
+            printf(" ninety "); 
+            break;
+        default:
+            printf("not a no.");
+            break;
+    }
+b+=1;
 switch(b)
-{
-case 0:
-printf(" zero");
-break;
-case 1:
-printf(" Ten");
-break;
-case 2:
-printf(" Twenty");
-break;
-case 3:
-printf(" Thirty");
-break;
-case 4:
-printf(" Forty");
-break;
-case 5:
-printf(" Fifty");
-break;
-case 6:
-printf(" Sixty");
-break;
-case 7:
-printf(" Seventy");
-break;
-case 8:
-printf(" Eighty");
-break;
-case 9:
-printf(" Ninety");
-break;
-default:
-printf(" not a no.");
-}
-switch(a)
 {
 case 0:
 printf(" zero\n");
@@ -151,6 +185,7 @@ break;
 case 9:
 printf(" nine\n");
 break;
+}
 }
 /*
 switch (d)
@@ -186,4 +221,4 @@ default:
 printf(" not a no.");
 }
 */
-}
+
